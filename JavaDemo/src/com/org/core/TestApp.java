@@ -2,11 +2,9 @@ package com.org.core;
 
 public class TestApp {
 	public static void main(String[] args) {
-		
-		System.out.println("hai");
-		System.out.println("from vami");
-		int sum = new SumNumbers().getSum(10, 20);
-		System.out.println(sum);
-		
+		Emp e1 = new Emp();
+		Emp e2 = new Emp();
+		System.out.println(e1 == e2);
+		System.out.println(e1.equals(e2));
 	}
 }
